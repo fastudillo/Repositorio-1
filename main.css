@@ -1,0 +1,127 @@
+body{
+    background-color:#e5e5e5;
+    margin:0;
+}
+
+header{
+    text-align: center;
+    background-color:#776d8a;
+    padding: 3px;
+}
+
+.menu-lista li{
+    display: inline-flex;
+    margin-right: 10px;
+    width: 80px;
+    padding:12px 16px 12px 16px;
+    background-color:#e5e5e5;
+    border-radius: 5px;
+    
+}
+
+.menu-lista li a {
+    text-decoration:none;
+    margin-left:auto;
+    margin-right:auto;
+    color:#776d8a;
+    font-weight: 550;
+}
+
+footer{
+    padding:20px;
+    background-color:#ff7171;
+    color:white;
+    text-align: end;
+}
+
+.tab-img{
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+
+td{
+    border:3px solid #b52b65;
+}
+
+.img-det{
+    max-width: 300px;
+    height:200px;
+}
+
+.info{
+    padding:10px;
+    background-color:#3c2c3e;
+    color:white;
+}
+
+.titulo{
+    text-align: center;
+    width:700px;
+    margin-left: auto;
+    margin-right: auto;
+    font: bold small-caps 30px 'Courier New', Courier, monospace;
+    color:#3b2e5a;
+}
+
+.formulario{
+    margin:42px 0px 60px 0px;
+    padding:50px;
+    text-align: center;
+    width:350px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:white;
+    border:3px solid #d3dbff;
+}
+
+.input-text{
+    margin:9.5px;
+    border-width:0;
+    border-bottom: 1px solid black;
+    font:large 'Courier';
+    width:90%;
+}
+
+.submit-button{
+    margin-top:30px;
+    background-color:#b52b65;
+    border:0;
+    padding:12px 16px 12px 16px;
+    color:white;
+    font-size:15px;
+}
+
+.informacion{
+    text-align:justify;
+    width:70%;
+    margin-left: auto;
+    margin-right:auto;
+    background-color:white;
+    padding:20px;
+    border:2px solid #93b5e1;
+    margin-bottom: 17px;
+}
+
+p{
+    font:normal 17px sans-serif;
+    color:#59405c;
+}
+
+.links{
+    text-decoration:none;
+}
+
+.links:hover>.info{
+    background-color:white;
+    color: #59405c;
+    transition:0.3s;
+}
+
+.imagen-grande{
+    width:100%;
+}
+
+.imagen-grande img{
+    width:100%;
+}
